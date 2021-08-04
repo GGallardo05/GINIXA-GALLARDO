@@ -4,7 +4,10 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
+
 int main(int argc, char *argv[]) {
+	
+	// ax2 + bx + c = 0 //
 	
 	float a, b, c, d;
 	
@@ -30,6 +33,6 @@ int main(int argc, char *argv[]) {
 			printf ("x1: %+ %.f i\n", -b/(2*a), sqrt(-d)/(2*a) );
 			printf ("x2: %- %.f i\n", -b/(2*a), sqrt(-d)/(2*a) );
 		}
-	
+
 	return 0;
 }
